@@ -9,4 +9,8 @@
 /cygdrive/c/Users/ruffini/CLionProjects/untitled/main.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 
