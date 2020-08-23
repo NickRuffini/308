@@ -11,7 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65131557-0e55-4a46-9f83-4811e0128e51" name="Default Changelist" comment="" />
+    <list default="true" id="65131557-0e55-4a46-9f83-4811e0128e51" name="Default Changelist" comment="Working on second reverse method">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +26,26 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1gMmaxVGqmbQRUs0zOFJPrRERNF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
@@ -49,37 +74,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597932903882</updated>
-      <workItem from="1597932911443" duration="2300000" />
+      <workItem from="1597932911443" duration="2706000" />
+      <workItem from="1598196643630" duration="3505000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working on second reverse method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on second reverse method" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1344" height="240" key="GridCell.Tab.0.bottom" timestamp="1597933858329">
+    <state x="372" y="75" key="CommitChangelistDialog2" timestamp="1598200096817">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1344" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1597933858329" />
-    <state width="1344" height="240" key="GridCell.Tab.0.center" timestamp="1597933858328">
+    <state x="372" y="75" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1598200096817" />
+    <state width="1458" height="240" key="GridCell.Tab.0.bottom" timestamp="1598200096907">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1344" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1597933858328" />
-    <state width="1344" height="240" key="GridCell.Tab.0.left" timestamp="1597933858328">
+    <state width="1458" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598200096907" />
+    <state width="1458" height="240" key="GridCell.Tab.0.center" timestamp="1598200096906">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1344" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1597933858328" />
-    <state width="1344" height="240" key="GridCell.Tab.0.right" timestamp="1597933858328">
+    <state width="1458" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1598200096906" />
+    <state width="1458" height="240" key="GridCell.Tab.0.left" timestamp="1598200096906">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1344" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1597933858328" />
+    <state width="1458" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1598200096906" />
+    <state width="1458" height="240" key="GridCell.Tab.0.right" timestamp="1598200096907">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1598200096907" />
     <state x="253" y="124" key="SettingsEditor" timestamp="1597934115754">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1597934115754" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1597932911456">
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1598196643044">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1597932911456" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1598196643043" />
   </component>
 </project>
