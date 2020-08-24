@@ -14,6 +14,10 @@
 
 int reverseAsInt(int);
 int reverseAsStr(char[], int, int);
+int sumAllDigits(int);
+
+int sum;
+int numToAdd;
 
 int main() {
     int n = 0;
@@ -22,12 +26,12 @@ int main() {
     char numAsString[12];
 
     while (n != -1) {
+        sum = 0;
         printf("Enter number of integers to store [-1 to quit]: ");
         scanf("%d", &n);
 
-        int array[n];
-
         if (n > -2) {
+            int array[n];
             if (n != -1) {
                 for (i = 0; i < n; i++) {
                     int thisNum;
@@ -41,11 +45,11 @@ int main() {
 
                 reverseAsInt(array[chosenIndex - 1]);
 
-                printf("test");
                 sprintf(numAsString, "%d", array[chosenIndex - 1]);
-                printf("String: %s", numAsString);
 
                 reverseAsStr(numAsString, 0, strlen(numAsString) - 1);
+
+                printf("Sum of all digits in num: %d\n\n", sumAllDigits(array[chosenIndex - 1]));
             }
         }
         else {
@@ -78,20 +82,42 @@ int reverseAsInt(int num) {
 /**************************************************
  * Input: String value that will be reversed
  * Output: A 0 if the reverse failed, a 1 if the reverse succeeded
- * Pre-Condition:
- * Post-Condition:
+ * Pre-Condition: Valid parameters are passed in (String in char[] form, index and size are valid entries for the string)
+ * Post-Condition: Will print out the reversed number in string form
  * ***********************************************/
 int reverseAsStr(char num[], int index, int size) {
     if (index >= size) {
+        printf("Reverse number (as Str): %s\n\n", num);
         return 1;
+    }
+    else if (num[index] == '-'){
+        reverseAsStr(num, index + 1, size);
     }
     else {
         char temp = num[index];
         num[index] = num[size];
         num[size] = temp;
 
-        reverseAsStr(num, index++, size--);
+        reverseAsStr(num, index + 1, size - 1);
     }
+}
 
-    printf("Reverse number (as Str): %s", num);
+/**************************************************
+ * Input: Number that we are summing the digits of
+ * Output: The sum of all the digits
+ * Pre-Condition:
+ * Post-Condition:
+ * ***********************************************/
+int sumAllDigits(int num) {
+    if (num < 0) {
+        sumAllDigits(abs(num));
+    }
+    if (num == 0) {
+        return sum;
+    }
+    else {
+        numToAdd = num % 10;
+        sum += numToAdd;
+        sumAllDigits(num / 10);
+    }
 }

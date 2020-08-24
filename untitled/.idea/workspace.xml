@@ -11,10 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65131557-0e55-4a46-9f83-4811e0128e51" name="Default Changelist" comment="Working on second reverse method">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="65131557-0e55-4a46-9f83-4811e0128e51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -75,8 +73,17 @@
       <option name="presentableId" value="Default" />
       <updated>1597932903882</updated>
       <workItem from="1597932911443" duration="2706000" />
-      <workItem from="1598196643630" duration="3505000" />
+      <workItem from="1598196643630" duration="3797000" />
+      <workItem from="1598295649249" duration="4604000" />
     </task>
+    <task id="LOCAL-00001" summary="Working on second reverse method">
+      <created>1598200159607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598200159607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,29 +102,45 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="531" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1598200305614" />
-    <state width="1458" height="240" key="GridCell.Tab.0.bottom" timestamp="1598200096907">
+    <state width="1458" height="240" key="GridCell.Tab.0.bottom" timestamp="1598300171378">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598200096907" />
-    <state width="1458" height="240" key="GridCell.Tab.0.center" timestamp="1598200096906">
+    <state width="1458" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598300171378" />
+    <state width="1458" height="240" key="GridCell.Tab.0.center" timestamp="1598300171378">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1598200096906" />
-    <state width="1458" height="240" key="GridCell.Tab.0.left" timestamp="1598200096906">
+    <state width="1458" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1598300171378" />
+    <state width="1458" height="240" key="GridCell.Tab.0.left" timestamp="1598300171377">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1598200096906" />
-    <state width="1458" height="240" key="GridCell.Tab.0.right" timestamp="1598200096907">
+    <state width="1458" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1598300171377" />
+    <state width="1458" height="240" key="GridCell.Tab.0.right" timestamp="1598300171378">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1598200096907" />
+    <state width="1458" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1598300171378" />
+    <state width="1458" height="316" key="GridCell.Tab.1.bottom" timestamp="1598299198717">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="316" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598299198717" />
+    <state width="1458" height="316" key="GridCell.Tab.1.center" timestamp="1598299198716">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="316" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1598299198716" />
+    <state width="1458" height="316" key="GridCell.Tab.1.left" timestamp="1598299198716">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="316" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1598299198716" />
+    <state width="1458" height="316" key="GridCell.Tab.1.right" timestamp="1598299198716">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="316" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1598299198716" />
     <state x="253" y="124" key="SettingsEditor" timestamp="1597934115754">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1597934115754" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1598196643044">
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1598295649191">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1598196643043" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1598295649191" />
   </component>
 </project>
